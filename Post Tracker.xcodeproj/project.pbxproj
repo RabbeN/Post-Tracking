@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A499C2119F9A9F300701335 /* ReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A499C2019F9A9F300701335 /* ReachabilityManager.m */; };
+		0A499C2919F9AF6600701335 /* departments.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A499C2819F9AF6600701335 /* departments.json */; };
+		0A499C2C19F9B76000701335 /* AboutAppVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A499C2B19F9B76000701335 /* AboutAppVC.m */; };
+		0A499C2E19F9CA1A00701335 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A499C2D19F9CA1A00701335 /* MessageUI.framework */; };
+		0A499C3119F9E2BC00701335 /* TrackingOfShipmentsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A499C3019F9E2BC00701335 /* TrackingOfShipmentsVC.m */; };
+		0A499C3519FA03CF00701335 /* UINavigationBar+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A499C3419FA03CF00701335 /* UINavigationBar+Addition.m */; };
+		0A499C3819FA15A500701335 /* TrackNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A499C3719FA15A500701335 /* TrackNumber.m */; };
+		0A499C3B19FA222B00701335 /* TracksHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A499C3A19FA222B00701335 /* TracksHelper.m */; };
+		0A499C3E19FA296300701335 /* InsideItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A499C3D19FA296300701335 /* InsideItem.m */; };
+		0A499C4119FA297000701335 /* OutsideItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A499C4019FA297000701335 /* OutsideItem.m */; };
+		0A499C4719FA4E7D00701335 /* MyParcelsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A499C4619FA4E7D00701335 /* MyParcelsVC.m */; };
+		0A499C4A19FA500A00701335 /* PostOfficesTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A499C4919FA500A00701335 /* PostOfficesTableVC.m */; };
+		0A499C4D19FA542000701335 /* DepartmentsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A499C4C19FA542000701335 /* DepartmentsHelper.m */; };
+		0A499C5019FA573300701335 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A499C4F19FA573300701335 /* City.m */; };
+		0A499C5319FA5D3D00701335 /* PostOffice.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A499C5219FA5D3D00701335 /* PostOffice.m */; };
+		0A499C5619FB12F500701335 /* PostOfficeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A499C5519FB12F500701335 /* PostOfficeVC.m */; };
+		0A499C5919FB133200701335 /* CitiesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A499C5819FB133200701335 /* CitiesVC.m */; };
+		0A552E7417E783C000E78692 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A552E7317E783C000E78692 /* UIKit.framework */; };
+		0A552E7617E783C000E78692 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A552E7517E783C000E78692 /* Foundation.framework */; };
+		0A552E7817E783C000E78692 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A552E7717E783C000E78692 /* CoreGraphics.framework */; };
+		0A552E7E17E783C000E78692 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A552E7C17E783C000E78692 /* InfoPlist.strings */; };
+		0A552E8017E783C000E78692 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A552E7F17E783C000E78692 /* main.m */; };
+		0A552E8417E783C000E78692 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A552E8317E783C000E78692 /* AppDelegate.m */; };
+		0A809E8C18F9B4890055AC62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A809E8B18F9B4890055AC62 /* Images.xcassets */; };
+		0A81C7B719F8D06100EE3481 /* DataElementForVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A81C7B619F8D06100EE3481 /* DataElementForVC.m */; };
+		0A81C7B919F9402B00EE3481 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A81C7B819F9402B00EE3481 /* SystemConfiguration.framework */; };
+		0AD8027719FCB988009A83B0 /* PostOfficeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8027619FCB988009A83B0 /* PostOfficeCell.m */; };
+		52624D6218FB59AF0009AE6C /* GeneralVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52624D6118FB59AF0009AE6C /* GeneralVC.m */; };
+		F0B5380D5B224F86888FFF2E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CEED7111BC14B5EBD95A617 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A499C1F19F9A9F300701335 /* ReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachabilityManager.h; sourceTree = "<group>"; };
+		0A499C2019F9A9F300701335 /* ReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachabilityManager.m; sourceTree = "<group>"; };
+		0A499C2819F9AF6600701335 /* departments.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = departments.json; sourceTree = "<group>"; };
+		0A499C2A19F9B76000701335 /* AboutAppVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutAppVC.h; sourceTree = "<group>"; };
+		0A499C2B19F9B76000701335 /* AboutAppVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutAppVC.m; sourceTree = "<group>"; };
+		0A499C2D19F9CA1A00701335 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		0A499C2F19F9E2BC00701335 /* TrackingOfShipmentsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackingOfShipmentsVC.h; sourceTree = "<group>"; };
+		0A499C3019F9E2BC00701335 /* TrackingOfShipmentsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackingOfShipmentsVC.m; sourceTree = "<group>"; };
+		0A499C3319FA03CF00701335 /* UINavigationBar+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Addition.h"; sourceTree = "<group>"; };
+		0A499C3419FA03CF00701335 /* UINavigationBar+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Addition.m"; sourceTree = "<group>"; };
+		0A499C3619FA15A500701335 /* TrackNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackNumber.h; sourceTree = "<group>"; };
+		0A499C3719FA15A500701335 /* TrackNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackNumber.m; sourceTree = "<group>"; };
+		0A499C3919FA222B00701335 /* TracksHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TracksHelper.h; sourceTree = "<group>"; };
+		0A499C3A19FA222B00701335 /* TracksHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TracksHelper.m; sourceTree = "<group>"; };
+		0A499C3C19FA296300701335 /* InsideItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsideItem.h; sourceTree = "<group>"; };
+		0A499C3D19FA296300701335 /* InsideItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsideItem.m; sourceTree = "<group>"; };
+		0A499C3F19FA297000701335 /* OutsideItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutsideItem.h; sourceTree = "<group>"; };
+		0A499C4019FA297000701335 /* OutsideItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutsideItem.m; sourceTree = "<group>"; };
+		0A499C4519FA4E7D00701335 /* MyParcelsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyParcelsVC.h; sourceTree = "<group>"; };
+		0A499C4619FA4E7D00701335 /* MyParcelsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyParcelsVC.m; sourceTree = "<group>"; };
+		0A499C4819FA500A00701335 /* PostOfficesTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostOfficesTableVC.h; sourceTree = "<group>"; };
+		0A499C4919FA500A00701335 /* PostOfficesTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostOfficesTableVC.m; sourceTree = "<group>"; };
+		0A499C4B19FA542000701335 /* DepartmentsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartmentsHelper.h; sourceTree = "<group>"; };
+		0A499C4C19FA542000701335 /* DepartmentsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartmentsHelper.m; sourceTree = "<group>"; };
+		0A499C4E19FA573300701335 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		0A499C4F19FA573300701335 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		0A499C5119FA5D3D00701335 /* PostOffice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostOffice.h; sourceTree = "<group>"; };
+		0A499C5219FA5D3D00701335 /* PostOffice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostOffice.m; sourceTree = "<group>"; };
+		0A499C5419FB12F500701335 /* PostOfficeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostOfficeVC.h; sourceTree = "<group>"; };
+		0A499C5519FB12F500701335 /* PostOfficeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostOfficeVC.m; sourceTree = "<group>"; };
+		0A499C5719FB133200701335 /* CitiesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitiesVC.h; sourceTree = "<group>"; };
+		0A499C5819FB133200701335 /* CitiesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitiesVC.m; sourceTree = "<group>"; };
+		0A552E7017E783C000E78692 /* Post Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Post Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A552E7317E783C000E78692 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A552E7517E783C000E78692 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A552E7717E783C000E78692 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A552E7B17E783C000E78692 /* Post Tracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Post Tracker-Info.plist"; sourceTree = "<group>"; };
+		0A552E7D17E783C000E78692 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A552E7F17E783C000E78692 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A552E8117E783C000E78692 /* Post Tracker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Post Tracker-Prefix.pch"; sourceTree = "<group>"; };
+		0A552E8217E783C000E78692 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A552E8317E783C000E78692 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A809E8B18F9B4890055AC62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0A81C7B519F8D06100EE3481 /* DataElementForVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataElementForVC.h; sourceTree = "<group>"; };
+		0A81C7B619F8D06100EE3481 /* DataElementForVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataElementForVC.m; sourceTree = "<group>"; };
+		0A81C7B819F9402B00EE3481 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0AD8027519FCB988009A83B0 /* PostOfficeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostOfficeCell.h; sourceTree = "<group>"; };
+		0AD8027619FCB988009A83B0 /* PostOfficeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostOfficeCell.m; sourceTree = "<group>"; };
+		2F1A546607439F4625414BF7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		52624D6018FB59AF0009AE6C /* GeneralVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralVC.h; sourceTree = "<group>"; };
+		52624D6118FB59AF0009AE6C /* GeneralVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralVC.m; sourceTree = "<group>"; };
+		775B6A71515A3F813A68F509 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7CEED7111BC14B5EBD95A617 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A552E6D17E783C000E78692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A499C2E19F9CA1A00701335 /* MessageUI.framework in Frameworks */,
+				0A81C7B919F9402B00EE3481 /* SystemConfiguration.framework in Frameworks */,
+				0A552E7417E783C000E78692 /* UIKit.framework in Frameworks */,
+				0A552E7617E783C000E78692 /* Foundation.framework in Frameworks */,
+				0A552E7817E783C000E78692 /* CoreGraphics.framework in Frameworks */,
+				F0B5380D5B224F86888FFF2E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A499C2419F9ADC000701335 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0A499C4319FA2CA200701335 /* Helpers */,
+				0A499C4219FA2C9C00701335 /* json */,
+				0A499C3619FA15A500701335 /* TrackNumber.h */,
+				0A499C3719FA15A500701335 /* TrackNumber.m */,
+				0A499C3C19FA296300701335 /* InsideItem.h */,
+				0A499C3D19FA296300701335 /* InsideItem.m */,
+				0A499C3F19FA297000701335 /* OutsideItem.h */,
+				0A499C4019FA297000701335 /* OutsideItem.m */,
+				0A499C4E19FA573300701335 /* City.h */,
+				0A499C4F19FA573300701335 /* City.m */,
+				0A499C5119FA5D3D00701335 /* PostOffice.h */,
+				0A499C5219FA5D3D00701335 /* PostOffice.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		0A499C2519F9ADC800701335 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A6A3F9C19FD614A00758F43 /* Cells */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0A499C2619F9ADCF00701335 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				52624D6018FB59AF0009AE6C /* GeneralVC.h */,
+				52624D6118FB59AF0009AE6C /* GeneralVC.m */,
+				0A499C2F19F9E2BC00701335 /* TrackingOfShipmentsVC.h */,
+				0A499C3019F9E2BC00701335 /* TrackingOfShipmentsVC.m */,
+				0A499C4819FA500A00701335 /* PostOfficesTableVC.h */,
+				0A499C4919FA500A00701335 /* PostOfficesTableVC.m */,
+				0A499C5719FB133200701335 /* CitiesVC.h */,
+				0A499C5819FB133200701335 /* CitiesVC.m */,
+				0A499C5419FB12F500701335 /* PostOfficeVC.h */,
+				0A499C5519FB12F500701335 /* PostOfficeVC.m */,
+				0A499C4519FA4E7D00701335 /* MyParcelsVC.h */,
+				0A499C4619FA4E7D00701335 /* MyParcelsVC.m */,
+				0A499C2A19F9B76000701335 /* AboutAppVC.h */,
+				0A499C2B19F9B76000701335 /* AboutAppVC.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0A499C2719F9ADE700701335 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				0A499C3219FA03CF00701335 /* UINavigationBar-Addition */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		0A499C3219FA03CF00701335 /* UINavigationBar-Addition */ = {
+			isa = PBXGroup;
+			children = (
+				0A499C3319FA03CF00701335 /* UINavigationBar+Addition.h */,
+				0A499C3419FA03CF00701335 /* UINavigationBar+Addition.m */,
+			);
+			path = "UINavigationBar-Addition";
+			sourceTree = "<group>";
+		};
+		0A499C4219FA2C9C00701335 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				0A499C2819F9AF6600701335 /* departments.json */,
+			);
+			name = json;
+			sourceTree = "<group>";
+		};
+		0A499C4319FA2CA200701335 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0A499C3919FA222B00701335 /* TracksHelper.h */,
+				0A499C3A19FA222B00701335 /* TracksHelper.m */,
+				0A499C4B19FA542000701335 /* DepartmentsHelper.h */,
+				0A499C4C19FA542000701335 /* DepartmentsHelper.m */,
+				0A499C1F19F9A9F300701335 /* ReachabilityManager.h */,
+				0A499C2019F9A9F300701335 /* ReachabilityManager.m */,
+				0A81C7B519F8D06100EE3481 /* DataElementForVC.h */,
+				0A81C7B619F8D06100EE3481 /* DataElementForVC.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		0A552E6717E783C000E78692 = {
+			isa = PBXGroup;
+			children = (
+				0A552E7917E783C000E78692 /* Post Tracker */,
+				0A552E7217E783C000E78692 /* Frameworks */,
+				0A552E7117E783C000E78692 /* Products */,
+				82DF15A3E512F67AD69DC321 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		0A552E7117E783C000E78692 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A552E7017E783C000E78692 /* Post Tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A552E7217E783C000E78692 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A499C2D19F9CA1A00701335 /* MessageUI.framework */,
+				0A81C7B819F9402B00EE3481 /* SystemConfiguration.framework */,
+				0A552E7317E783C000E78692 /* UIKit.framework */,
+				0A552E7517E783C000E78692 /* Foundation.framework */,
+				0A552E7717E783C000E78692 /* CoreGraphics.framework */,
+				7CEED7111BC14B5EBD95A617 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A552E7917E783C000E78692 /* Post Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				0A499C2719F9ADE700701335 /* External */,
+				0A499C2419F9ADC000701335 /* Models */,
+				0A499C2519F9ADC800701335 /* Views */,
+				0A499C2619F9ADCF00701335 /* Controllers */,
+				0A552E8217E783C000E78692 /* AppDelegate.h */,
+				0A552E8317E783C000E78692 /* AppDelegate.m */,
+				0A809E8B18F9B4890055AC62 /* Images.xcassets */,
+				0A552E7A17E783C000E78692 /* Supporting Files */,
+			);
+			path = "Post Tracker";
+			sourceTree = "<group>";
+		};
+		0A552E7A17E783C000E78692 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A552E7B17E783C000E78692 /* Post Tracker-Info.plist */,
+				0A552E7C17E783C000E78692 /* InfoPlist.strings */,
+				0A552E7F17E783C000E78692 /* main.m */,
+				0A552E8117E783C000E78692 /* Post Tracker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A6A3F9C19FD614A00758F43 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0AD8027519FCB988009A83B0 /* PostOfficeCell.h */,
+				0AD8027619FCB988009A83B0 /* PostOfficeCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		82DF15A3E512F67AD69DC321 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				775B6A71515A3F813A68F509 /* Pods.debug.xcconfig */,
+				2F1A546607439F4625414BF7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A552E6F17E783C000E78692 /* Post Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A552E9317E783C000E78692 /* Build configuration list for PBXNativeTarget "Post Tracker" */;
+			buildPhases = (
+				9679D4DA339A466AB8E25EBB /* Check Pods Manifest.lock */,
+				0A552E6C17E783C000E78692 /* Sources */,
+				0A552E6D17E783C000E78692 /* Frameworks */,
+				0A552E6E17E783C000E78692 /* Resources */,
+				023F3E2761644DD1ADBCAE02 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Post Tracker";
+			productName = "Post Tracker";
+			productReference = 0A552E7017E783C000E78692 /* Post Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A552E6817E783C000E78692 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Dmitry Putintsev";
+				TargetAttributes = {
+					0A552E6F17E783C000E78692 = {
+						DevelopmentTeam = 4JXT9QNMTR;
+					};
+				};
+			};
+			buildConfigurationList = 0A552E6B17E783C000E78692 /* Build configuration list for PBXProject "Post Tracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A552E6717E783C000E78692;
+			productRefGroup = 0A552E7117E783C000E78692 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A552E6F17E783C000E78692 /* Post Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A552E6E17E783C000E78692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A552E7E17E783C000E78692 /* InfoPlist.strings in Resources */,
+				0A809E8C18F9B4890055AC62 /* Images.xcassets in Resources */,
+				0A499C2919F9AF6600701335 /* departments.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		023F3E2761644DD1ADBCAE02 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9679D4DA339A466AB8E25EBB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A552E6C17E783C000E78692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A499C3819FA15A500701335 /* TrackNumber.m in Sources */,
+				0A499C4119FA297000701335 /* OutsideItem.m in Sources */,
+				0A499C4719FA4E7D00701335 /* MyParcelsVC.m in Sources */,
+				0A499C3519FA03CF00701335 /* UINavigationBar+Addition.m in Sources */,
+				0A499C5319FA5D3D00701335 /* PostOffice.m in Sources */,
+				0A499C2119F9A9F300701335 /* ReachabilityManager.m in Sources */,
+				0A499C3119F9E2BC00701335 /* TrackingOfShipmentsVC.m in Sources */,
+				0A552E8017E783C000E78692 /* main.m in Sources */,
+				0A499C3B19FA222B00701335 /* TracksHelper.m in Sources */,
+				52624D6218FB59AF0009AE6C /* GeneralVC.m in Sources */,
+				0A552E8417E783C000E78692 /* AppDelegate.m in Sources */,
+				0A499C5019FA573300701335 /* City.m in Sources */,
+				0A499C2C19F9B76000701335 /* AboutAppVC.m in Sources */,
+				0AD8027719FCB988009A83B0 /* PostOfficeCell.m in Sources */,
+				0A499C4A19FA500A00701335 /* PostOfficesTableVC.m in Sources */,
+				0A499C4D19FA542000701335 /* DepartmentsHelper.m in Sources */,
+				0A499C3E19FA296300701335 /* InsideItem.m in Sources */,
+				0A499C5619FB12F500701335 /* PostOfficeVC.m in Sources */,
+				0A499C5919FB133200701335 /* CitiesVC.m in Sources */,
+				0A81C7B719F8D06100EE3481 /* DataElementForVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A552E7C17E783C000E78692 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A552E7D17E783C000E78692 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A552E9117E783C000E78692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A552E9217E783C000E78692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A552E9417E783C000E78692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 775B6A71515A3F813A68F509 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Post Tracker/Post Tracker-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/Headers\"";
+				INFOPLIST_FILE = "Post Tracker/Post Tracker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "986F9B8C-593B-4CBA-B6F8-D7CBE42A938E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A552E9517E783C000E78692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F1A546607439F4625414BF7 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Post Tracker/Post Tracker-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/Headers\"";
+				INFOPLIST_FILE = "Post Tracker/Post Tracker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A552E6B17E783C000E78692 /* Build configuration list for PBXProject "Post Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A552E9117E783C000E78692 /* Debug */,
+				0A552E9217E783C000E78692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A552E9317E783C000E78692 /* Build configuration list for PBXNativeTarget "Post Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A552E9417E783C000E78692 /* Debug */,
+				0A552E9517E783C000E78692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A552E6817E783C000E78692 /* Project object */;
+}

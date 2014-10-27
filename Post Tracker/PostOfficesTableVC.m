@@ -30,6 +30,8 @@ static NSString *CellIdentifier = @"GeneralCell";
     [super viewDidLoad];
     
     self.title = @"Каталог отделений";
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@" " style:UIBarButtonItemStyleDone target:nil action:nil];
+    self.navigationItem.backBarButtonItem = backButton;
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:CellIdentifier];
     if ([self.tableView respondsToSelector:@selector(setSeparatorInset:)]) {

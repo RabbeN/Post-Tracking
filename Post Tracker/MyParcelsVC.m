@@ -77,7 +77,8 @@ static NSString *CellIdentifier = @"MyParcelsCell";
     [self.view addSubview:self.messageLabel];
     
     self.tracks = [[[TracksHelper sharedInstance] getTrackList] mutableCopy];
-    self.navigationItem.rightBarButtonItem = self.editButtonItem;;
+    self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.navigationItem.rightBarButtonItem.title = @"Редакт.";
 }
 
 #pragma mark - Table view data source
@@ -155,6 +156,8 @@ static NSString *CellIdentifier = @"MyParcelsCell";
 
 - (void)setEditing:(BOOL)editing animated:(BOOL)animated {
     [super setEditing:editing animated:animated];
+    
+    self.navigationItem.rightBarButtonItem.title = editing ? @"Применить" : @"Редакт.";
     
     [self.tableView setEditing:editing animated:animated];
 }

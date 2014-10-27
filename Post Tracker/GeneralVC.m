@@ -73,6 +73,8 @@ static NSString *CellIdentifier = @"GeneralCell";
     titleLabel.attributedText = attrString;
     [titleLabel sizeToFit];
     self.navigationItem.titleView = titleLabel;
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@" " style:UIBarButtonItemStyleDone target:nil action:nil];
+    self.navigationItem.backBarButtonItem = backButton;
 }
 
 - (void)viewWillAppear:(BOOL)animated {
